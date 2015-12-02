@@ -1,5 +1,5 @@
 
-Recursive matrix spiral output
+Recursive Matrix Spiral Output
 ======
 
 #### Example:
