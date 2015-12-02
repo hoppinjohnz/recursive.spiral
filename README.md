@@ -1,10 +1,10 @@
 
-matrix spiral output
+Recursive matrix spiral output
 ======
 
-#### example:
+#### Example:
 
-for an input matrix
+For an input matrix
 
 ```
 1   2  3  4  5
@@ -14,15 +14,17 @@ for an input matrix
 21 22 23 24 25
 ```
 
-output the following clockwise spiral order
+this program outputs the following clockwise spiral order
 
 ```
 1, 2, 3, 4, 5, 10, 15, 20, 25, 24, 23, 22, 21, 16, 11, 6, 7, 8, 9, 14, 19, 18, 17, 12, 13
 ```
 
-#### test
+#### Notes
 
-run command to see the result
+This is a divide and conquer algorithm.  The outer round cricle plus the center leftover consists of itself.  The center leftover is one less in size of the original problem.  See code for details.
+
+Run command to see the result
 ```
   ruby spiral.rb
 ```
