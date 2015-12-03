@@ -29,3 +29,4 @@ Run command to see the result
   ruby spiral.rb
 ```
 
+Please send comments and suggestions to John at johnzhu00@gmail.com.
